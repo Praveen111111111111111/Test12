@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="adhoc"></include>
+			<include name="functional"></include>
+			<exclude name="performance"></exclude>
+		</run>
+	</groups>
+	<test thread-count="5" name="adhoctesting">
+		<classes>
+			<class name="com.trello.qspiders.learntestng.GroupA" />
+			<class name="com.trello.qspiders.learntestng.GroupC" />
+			<class name="com.trello.qspiders.learntestng.GroupB" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

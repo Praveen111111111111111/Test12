@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="fullregressiontesting">
+  <test thread-count="5" name="regressiontesting">
+    <classes>
+      <class name="com.trello.qspiders.learntestng.ExecuteSameTestcaseMultipleTimes"/>
+      <class name="com.trello.qspiders.learntestng.UsageOfBeforeAndAfterMethod"/>
+      <class name="com.trello.qspiders.learntestng.DependsOnMethodsCheck"/>
+      <class name="com.trello.qspiders.learntestng.WhatIfMultipleTestAnnotationsINTheClass"/>
+      <class name="com.trello.qspiders.learntestng.TestNGClass"/>
+      <class name="com.trello.qspiders.learntestng.UserDefinedOrder"/>
+      <class name="com.trello.qspiders.learntestng.DisableTestCaseFromExecution"/>
+      <class name="com.trello.qspiders.learntestng.OrderOfBasicAnnotations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
